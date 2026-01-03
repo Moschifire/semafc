@@ -32,7 +32,7 @@ const LandingPage = () => {
       if (response.ok) {
         setStatus("SUCCESS");
         setFormData({ name: '', email: '', phone: '', sector: 'Residential', service: 'Procurement', message: '' });
-        alert("Success! Your request has been sent to our safety team.");
+        alert("Success! Your request has been sent. Our rep will reach out to you shortly.");
       } else {
         setStatus("ERROR");
         alert("Oops! There was a problem submitting your form.");
@@ -53,8 +53,8 @@ const LandingPage = () => {
       <nav className="bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <Flame className="text-red-600 w-8 h-8" />
-            <span className="text-2xl font-bold tracking-tight">IGNITE<span className="text-red-600">GUARD</span></span>
+            <img src='https://firebasestorage.googleapis.com/v0/b/my-portfolio-f5672.appspot.com/o/shiled.png?alt=media&token=7e017f7e-e2f8-499e-bdd9-7c64dd9a8f10' className="text-red-600 w-8 h-8" />
+            <span className="text-2xl font-bold tracking-tight">SEM<span className="text-red-600">AFC</span></span>
           </div>
           <div className="hidden md:flex gap-8 font-medium">
             <a href="#services" className="hover:text-red-600 transition">Services</a>
@@ -71,7 +71,7 @@ const LandingPage = () => {
       <header className="relative bg-slate-900 text-white py-24 px-4">
         <div className="absolute inset-0 opacity-40 overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1599708139504-94c6f5053e18?auto=format&fit=crop&q=80&w=2000"
+            src="https://firebasestorage.googleapis.com/v0/b/my-portfolio-f5672.appspot.com/o/background.png?alt=media&token=8a79785c-00e5-480d-8715-f5a33f56434b"
             alt="Fire Safety Background"
             className="w-full h-full object-cover"
           />
@@ -166,13 +166,13 @@ const LandingPage = () => {
 
             <div className="space-y-6">
               <div className="flex items-center gap-4">
-                <Phone className="w-6 h-6" /> <span>+1 (555) 123-4567</span>
+                <Phone className="w-6 h-6" /> <span>+234 (813) 090-0145</span>
               </div>
               <div className="flex items-center gap-4">
-                <Mail className="w-6 h-6" /> <span>info@igniteguard.com</span>
+                <Mail className="w-6 h-6" /> <span>markoladeinde@gmail.com</span>
               </div>
               <div className="flex items-center gap-4">
-                <MapPin className="w-6 h-6" /> <span>123 Safety Ave, Industrial Way</span>
+                <MapPin className="w-6 h-6" /> <span>9A, Bode Joseph Street, Gbagada, Lagos</span>
               </div>
             </div>
           </div>
@@ -251,10 +251,10 @@ const LandingPage = () => {
       <footer className="bg-slate-900 text-slate-400 py-12 px-4 border-t border-slate-800">
         <div className="max-w-7xl mx-auto flex flex-col md:row justify-between items-center gap-6">
           <div className="flex items-center gap-2 text-white">
-            <Flame className="text-red-600 w-6 h-6" />
-            <span className="text-xl font-bold">IGNITEGUARD</span>
+            <img src='https://firebasestorage.googleapis.com/v0/b/my-portfolio-f5672.appspot.com/o/shiled.png?alt=media&token=7e017f7e-e2f8-499e-bdd9-7c64dd9a8f10' className="text-red-600 w-6 h-6" />
+            <span className="text-xl font-bold">SEMAFC</span>
           </div>
-          <p>© {new Date().getFullYear()} IgniteGuard Safety Solutions. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} SEMAFC & Sons Enterprises. All rights reserved.</p>
           <div className="flex gap-6">
             <span className="hover:text-white cursor-pointer">Privacy Policy</span>
             <span className="hover:text-white cursor-pointer">Terms of Service</span>
