@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ShieldAlert, Flame, BookOpen, Settings, CheckCircle, Phone, Mail, MapPin } from 'lucide-react';
-import { useForm, ValidationError } from '@formspree/react';
+import { Analytics } from "@vercel/analytics/react"
 
 const LandingPage = () => {
   const [formData, setFormData] = useState({
@@ -16,9 +16,9 @@ const LandingPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     // Change YOUR_FORM_ID to the ID you got from Formspree
-    const FORMSPREE_URL = "https://formspree.io/f/xvzgbgyo"; 
+    const FORMSPREE_URL = "https://formspree.io/f/xvzgbgyo";
 
     try {
       const response = await fetch(FORMSPREE_URL, {
@@ -264,5 +264,6 @@ const LandingPage = () => {
     </div>
   );
 };
+<Analytics />
 
 export default LandingPage;
