@@ -170,7 +170,7 @@ const LandingPage = () => {
                 <Phone className="w-6 h-6" /> <span>+234 (810) 763-7321, +234 (813) 090-0145</span>
               </div>
               <div className="flex items-center gap-4">
-                <Mail className="w-6 h-6" /> <span>markoladeinde@gmail.com</span>
+                <Mail className="w-6 h-6" /> <span>info@semafc.co</span>
               </div>
               <div className="flex items-center gap-4">
                 <MapPin className="w-6 h-6" /> <span>9A Bode Joseph Street, Ifako, Gbagada, Lagos</span>
