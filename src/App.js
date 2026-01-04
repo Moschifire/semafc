@@ -13,12 +13,11 @@ const LandingPage = () => {
     message: ''
   });
 
-  const [status, setStatus] = useState(""); // Add this to track submission status
+  const [status, setStatus] = useState(""); // To track submission status
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Change YOUR_FORM_ID to the ID you got from Formspree
     const FORMSPREE_URL = "https://formspree.io/f/xvzgbgyo";
 
     try {
@@ -167,13 +166,13 @@ const LandingPage = () => {
 
             <div className="space-y-6">
               <div className="flex items-center gap-4">
-                <Phone className="w-6 h-6" /> <span>+234 (813) 090-0145</span>
+                <Phone className="w-6 h-6" /> <span>+234 (810) 763-7321</span>
               </div>
               <div className="flex items-center gap-4">
                 <Mail className="w-6 h-6" /> <span>markoladeinde@gmail.com</span>
               </div>
               <div className="flex items-center gap-4">
-                <MapPin className="w-6 h-6" /> <span>9A, Bode Joseph Street, Gbagada, Lagos</span>
+                <MapPin className="w-6 h-6" /> <span>9A Bode Joseph Street, Ifako, Gbagada, Lagos</span>
               </div>
             </div>
           </div>
