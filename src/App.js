@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ShieldAlert, Flame, BookOpen, Settings, CheckCircle, Phone, Mail, MapPin } from 'lucide-react';
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const LandingPage = () => {
   const [formData, setFormData] = useState({
@@ -264,6 +265,9 @@ const LandingPage = () => {
 
       {/* Vercel Web Analytics */}
       <Analytics />
+
+      {/* Vercel Speed Insights */}
+      <SpeedInsights />
     </div>
   );
 };
