@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ShieldAlert, Flame, BookOpen, Settings, CheckCircle, Phone, Mail, MapPin } from 'lucide-react';
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import Pricing from './Pricing';
 
 const LandingPage = () => {
   const [formData, setFormData] = useState({
@@ -166,7 +167,7 @@ const LandingPage = () => {
 
             <div className="space-y-6">
               <div className="flex items-center gap-4">
-                <Phone className="w-6 h-6" /> <span>+234 (810) 763-7321</span>
+                <Phone className="w-6 h-6" /> <span>+234 (810) 763-7321, +234 (813) 090-0145</span>
               </div>
               <div className="flex items-center gap-4">
                 <Mail className="w-6 h-6" /> <span>markoladeinde@gmail.com</span>
@@ -246,6 +247,9 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Pricing Component */}
+      {/* <Pricing /> */}
 
       {/* --- Footer --- */}
       <footer className="bg-slate-900 text-slate-400 py-12 px-4 border-t border-slate-800">
