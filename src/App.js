@@ -19,7 +19,7 @@ const LandingPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const FORMSPREE_URL = "https://formspree.io/f/xvzgbgyo";
+    const FORMSPREE_URL = "https://formspree.io/f/xgovprqk";
 
     try {
       const response = await fetch(FORMSPREE_URL, {
