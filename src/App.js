@@ -261,9 +261,11 @@ const LandingPage = () => {
           </div>
         </div>
       </footer>
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 };
-<Analytics />
 
 export default LandingPage;
